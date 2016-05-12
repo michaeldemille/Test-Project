@@ -1,0 +1,32 @@
+.brand {
+    margin: 0;
+    
+    display: inline-block;
+}
+
+header {
+    background-color: deeppink;
+}
+
+h1 {
+    color: #e5e5e5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    padding: 10px;
+}
+
+.nav-bar {
+    float: right;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+.nav-bar a {
+    display: inline-block;
+}
