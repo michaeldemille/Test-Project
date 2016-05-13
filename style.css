@@ -1,11 +1,13 @@
 .brand {
-    margin: 0;
-    
+    margin-left: 10px;
+    width: 200px;
     display: inline-block;
 }
 
 header {
     background-color: dimgrey;
+    width: 100px;
+    height: 500px;
 }
 
 h1 {
@@ -18,26 +20,59 @@ body {
 }
 
 article {
-    padding: 10px;
-}
-
-.nav-bar {
-    float: right;
-
+    /*padding: 10px;*/
     display: inline-block;
+    background-color: green;
+    width: calc(100% - 204px);
+    /*height: 500px;*/
 }
 
-.nav-bar a {
+.side-bar {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    background-color: dimgray;
+    
+    
+}
+
+.side-bar a {
     display: inline-block;
     padding: 5px 15px;
     text-decoration: none;
-    color: white;
+    color: deeppink;
 }
 
-.nav-bar a:hover {
+.side-bar a:hover {
     background-color: hotpink;
 }
 
 footer {
     padding-left: 10px;
+    background-color:gray;
+    height: 50px;
 }
+
+.quarter {
+        text-align: left;
+    /*padding-left: 2%;*/
+    /*padding-right: 2%;*/
+    width: 24%;
+    display: inline-block;
+    background-color: lightgray;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.center img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
