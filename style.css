@@ -163,6 +163,19 @@ footer {
     border: 1px solid lightblue;
 }
 
-.jtest {
-    
+.border2 img {
+    padding: 5px;
+    border: 1px solid #C1C1C1;
+}
+
+.tfont {
+    font-family: open sans;
+    font-size: 12px;
+}
+
+.tfont a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #082027;
 }
