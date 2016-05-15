@@ -4,54 +4,117 @@
     margin-right: auto;
     font-size: 0;
 }
-.brand {
-    margin-left: 10px;
-    width: 200px;
-    display: inline-block;
+
+p {
+    font-size: 12px;
+    font-family: open sans;
 }
 
-header {
-    /*background-color: dimgrey;*/
-    width: 100px;
-    height: 500px;
+a {
+    font-family: open sans;
 }
 
-h1 {
-    color: #e5e5e5;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-article {
-    /*padding: 10px;*/
-    display: inline-block;
-    /*background-color: green;*/
-    width: calc(100% - 204px);
-    /*height: 500px;*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .side-bar {
     font-size: 16px;
     float: left;
     display: inline-block;
-    /*height: 100%;*/
     width: 200px;
-    /*background-color: dimgray;*/
-    
-    
+    color: #40798c;   
 }
 
 .side-bar a {
     display: inline-block;
     padding: 5px 15px;
     text-decoration: none;
-    /*color: deeppink;*/
+    color: #40798c;
 }
 
 .side-bar a:hover {
+    color: #082027;
+}
+
+.main-content {
+    display: inline-block;
+    width: calc(100% - 204px);
+}
+
+.btn {
+    font-size: 18px;
+    text-align: center;    
+    padding: 10px 0;
+    width: 25%;
+    display: inline-block;
+    background-color: #40798c;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.btn-active {
+    background-color: #082027;
+}
+
+.btn:hover {
+    background-color: #082027;
+}
+
+.mailblock {
+    margin-top: 10px; 
+    padding-top: 10px; 
+    margin-bottom: 10px; 
+    padding-bottom: 10px; 
+    border-top: 1px dashed gray; 
+    border-bottom: 1px dashed gray;
+    display: inline-block;
+}
+
+.mailblock-icon {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.mailblock-text {
+    font-size: 15px; 
+    display: inline-block; 
+}
+
+.mailblock-form {
+    display: inline-block; 
+    padding-left: 20px; 
+    vertical-align: 10px;
+}
+
+.blog {
+    font-size: 18px;
+    text-align: center;    
+    padding: 10px 0;
+    width: 25%;
+    display: inline-block;
+}
+
+.blog img {
+    padding: 5px;
+    border: 1px solid #C1C1C1;
+}
+
+.blogtext {
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: open sans;
+    font-size: 12px;
+}
+
+.blogtext a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
     color: #082027;
 }
 
@@ -61,125 +124,5 @@ footer {
     border-top: 1px dashed gray;
     font-size: 12px;
     padding-left: 10px;
-    /*background-color:gray;*/
     height: 50px;
-}
-
-.quarter {
-    font-size: 18px;
-    text-align: left;    
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 25%;
-    display: inline-block;
-    /*background-color: lightgray;*/
-
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.center img {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.color1 {
-    background-color: #60992d;
-}
-
-.color2 {
-    background-color: #8cae68
-}
-
-.color3 {
-    background-color: #082027;
-}
-
-.color4 {
-    background-color: #40798c;
-}
-
-.color5 {
-    background-color: #f4f4f4;
-}
-
-.color1a {
-    color: #60992d;
-}
-
-.color2a {
-    color: #8cae68
-}
-
-.color3a {
-    color: #082027;
-}
-
-.color4a {
-    color: #40798c;
-}
-
-.color5a {
-    color: #f4f4f4;
-}
-
-.color3a a {
-    color: #082027;
-    text-decoration: none;
-    font-family: open sans;
-}
-
-.color4a a {
-    color: #40798c;
-    text-decoration: none;
-    font-family: open sans;
-}
-
-.color5a a {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-family: open sans;
-}
-
-
-.padded {
-    padding-top: 10px;
-    padding-bottom: 10px;
-   
-}
-
-.color4:hover {
-    background-color: #082027;
-}
-
-.border {
-    border: 1px solid lightblue;
-}
-
-.border2 img {
-    padding: 5px;
-    border: 1px solid #C1C1C1;
-}
-
-.tfont {
-    text-align: left;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-family: open sans;
-    font-size: 12px;
-}
-
-.tfont a {
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #082027;
 }
